@@ -14,7 +14,8 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 * ### Configuration parameters
     * [How to override](examples/player-configuration.md)
 
-
+    The Player selects the configured settings, this parameters below can be overwritten.
+    
     <table width="100%">
     <tr>
         <td>autoplay</td>
