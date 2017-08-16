@@ -30,3 +30,5 @@ function myPLayerBridge(player, event, data) {
 }
 </script>
 ```
+
+Back to [index](../../readme.md).
