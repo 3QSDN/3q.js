@@ -1,4 +1,4 @@
-# Generate key (Player Protection)
+# Key Generating
 
 Server-side code
 
@@ -20,7 +20,7 @@ Embed player
 <script type="text/javascript" src="https://playout.3qsdn.com/player/js/sdnplayer.js"></script>
 <script type="text/javascript"
         src="https://playout.3qsdn.com/7201c779-6b3c-11e7-a40e-002590c750be?js=true&
-        timestamp=`timestamp`&key=`key`&container=player1&width=100%25&height=360
+        timestamp={TimeStamp}&key={Key}&container=player1&width=100%25&height=360
         &javaScriptBridgeFunction=myPlayerBridge">
 </script>
 ```
