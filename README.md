@@ -34,7 +34,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     <tr>
         <td>vast</td>
         <td>true | false</td>
-        <td></td>
+        <td>Enables or disables configured ads in `AdManager`</td>
     </tr>
     <tr>
         <td>width</td>
@@ -59,7 +59,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     <tr>
         <td>controlbar</td>
         <td>true | false</td>
-        <td></td>
+        <td>Enable or disable controls</td>
     </tr>
     <tr>
         <td>bgcolor</td>
