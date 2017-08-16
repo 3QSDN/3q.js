@@ -14,6 +14,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 * ### Configuration parameters
     * [How to override](examples/player-configuration.md)
 
+
     <table width="100%">
     <tr>
         <td>autoplay</td>
@@ -22,12 +23,12 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     </tr>
     <tr>
         <td>muted</td>
-        <td>true|false</td>
+        <td>true | false</td>
         <td></td>
     </tr>
     <tr>
         <td>vast</td>
-        <td>true|false</td>
+        <td>true | false</td>
         <td></td>
     </tr>
     <tr>
@@ -52,7 +53,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     </tr>
     <tr>
         <td>controlbar</td>
-        <td>true|false</td>
+        <td>true | false</td>
         <td></td>
     </tr>
     <tr>
