@@ -3,7 +3,7 @@
 Embed library at head
 
 ```html
-<script type="text/javascript" src="//playout.3qsdn.com/player/js/sdnplayer.js"></script>
+<script type="text/javascript" src="https://playout.3qsdn.com/player/js/sdnplayer.js"></script>
 ```
 
 Embed player
