@@ -12,29 +12,65 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     * [Embed Protected Player](examples/generate-key.md)
 
 * ### Configuration parameters
-* [How to override](examples/player-configuration.md)
+    * [How to override](examples/player-configuration.md)
 
-<table width="100%">
-<tr>
-    <td>autoplay</td>
-    <td>true|false</td>
-    <td></td>
-</tr>
-</table>
-
-    * **autoplay** (true|false)
-    * **muted** (true|false)
-    * **vast** (true|false) Enables or disables ads (controlled by `AdManager`)
-    * **width** in px
-    * **height**
-    * **container** DIV Container where the player will be stored
-    * **key** [How to generate key](examples/generate-key.md)
-    * **timestamp**
-    * **muted**
-    * **controlbar**
-    * **bgcolor**
-    * **start**
-    * **end**
+    <table width="100%">
+    <tr>
+        <td>autoplay</td>
+        <td>true|false</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>muted</td>
+        <td>true|false</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>vast</td>
+        <td>true|false</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>width</td>
+        <td>100%25 | 640px</td>
+        <td></td>
+    </tr>
+     <tr>
+        <td>height</td>
+        <td>100%25 | 360px</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>key</td>
+        <td>string</td>
+        <td>[How to generate key](examples/generate-key.md)</td>
+    </tr>
+    <tr>
+        <td>timestamp</td>
+        <td>string</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>controlbar</td>
+        <td>true|false</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>bgcolor</td>
+        <td>#00000</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>start</td>
+        <td>30</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>end</td>
+        <td>70</td>
+        <td></td>
+    </tr>
+    </table>
 
 * ### Methods
     * play2
