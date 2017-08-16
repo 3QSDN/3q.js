@@ -11,6 +11,10 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     * [Custom action after video completed](examples/action-after-video-completed.md)
     * [Embed Protected Player](examples/generate-key.md)
 
+* ### Control
+    * [Methods](docs/methods.md)
+    * [Events](docs/events.md)
+
 * ### Configuration parameters
     * [How to override](examples/player-configuration.md)
 
@@ -73,7 +77,3 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
         <td></td>
     </tr>
     </table>
-
-* ### Methods
-    * play2
-    * pause
