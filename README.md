@@ -15,11 +15,11 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     * **autoplay** (true|false)
     * **muted** (true|false)
     * **vast** (true|false) Enables or disables ads (controlled by `AdManager`)
-    * **width** (100%25|640px)
-    * **height** (100%25|360px)
+    * **width** in px
+    * **height**
     * **container** DIV Container where the player will be stored
-    * **key** [Protect Player](examples/generate-key.md)
-    * **timestamp** [Protect Player](examples/generate-key.md)
+    * **key** [How to Protect Player](examples/generate-key.md)
+    * **timestamp**
     * **muted**
     * **controlbar**
     * **bgcolor**
