@@ -15,7 +15,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     * [How to override](examples/player-configuration.md)
 
     The Player selects the configured settings, this parameters below can be overwritten.
-    
+
     <table width="100%">
     <tr>
         <td>autoplay</td>
@@ -45,7 +45,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     <tr>
         <td>key</td>
         <td>string</td>
-        <td>[How to generate key](examples/generate-key.md)</td>
+        <td>* [How to generate key](examples/generate-key.md)</td>
     </tr>
     <tr>
         <td>timestamp</td>
