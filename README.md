@@ -12,10 +12,15 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     * [Embed Protected Player](examples/generate-key.md)
 
 * ### Configuration parameters
-    * [How to override](examples/player-configuration.md)
+* [How to override](examples/player-configuration.md)
 
-| autoplay | (true|false) | |
-
+<table width="100%">
+<tr>
+    <td>autoplay</td>
+    <td>true|false</td>
+    <td></td>
+</tr>
+</table>
 
     * **autoplay** (true|false)
     * **muted** (true|false)
