@@ -4,10 +4,12 @@ Server-side code
 
 ```php
 // serverside.php
+
 $_projectId = 'project id';
+$_accountSecret = 'account_secret';
 $timestamp = new \DateTime('now');
 $timestamp = $timestamp->getTimestamp();
-$key = md5($_projectId.'vp7Hdb9rYRjcQqD'.$timestamp);
+$key = md5($_projectId.$_accountSecret.$timestamp);
 ```
 
 Embed player
