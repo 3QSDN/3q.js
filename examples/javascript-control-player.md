@@ -34,4 +34,4 @@ function pause() {
 </script>
 ```
 
-Back to [index](../readme.md).
+Back to [index](../README.md).

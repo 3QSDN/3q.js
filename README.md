@@ -12,7 +12,6 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 
 * ### Configuration parameters
     * [How to override](examples/player-configuration.md)
-
     * **autoplay** (true|false)
     * muted (true|false)
     * vast (true|false) Enables or disables ads (controlled by `AdManager`)
