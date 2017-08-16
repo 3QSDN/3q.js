@@ -13,19 +13,18 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 * ### Configuration parameters
     * [How to override](examples/player-configuration.md)
     * **autoplay** (true|false)
-    * muted (true|false)
-    * vast (true|false) Enables or disables ads (controlled by `AdManager`)
-    * width
-    * height
-    * container
-    * referrer
-    * key
-    * timestamp
-    * muted
-    * controlbar
-    * bgcolor
-    * start
-    * end
+    * **muted** (true|false)
+    * **vast** (true|false) Enables or disables ads (controlled by `AdManager`)
+    * **width** (100%25|640px)
+    * **height** (100%25|360px)
+    * **container** DIV Container where the player will be stored
+    * **key** [Protect Player](examples/generate-key.md)
+    * **timestamp** [Protect Player](examples/generate-key.md)
+    * **muted**
+    * **controlbar**
+    * **bgcolor**
+    * **start**
+    * **end**
 
 * ### Methods
     * play2
