@@ -23,7 +23,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     <table width="100%">
     <tr>
         <td>autoplay</td>
-        <td>true|false</td>
+        <td>true | false</td>
         <td></td>
     </tr>
     <tr>
@@ -49,7 +49,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     <tr>
         <td>key</td>
         <td>string</td>
-        <td>* [How to generate key](examples/generate-key.md)</td>
+        <td></td>
     </tr>
     <tr>
         <td>timestamp</td>
@@ -64,16 +64,16 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     <tr>
         <td>bgcolor</td>
         <td>#00000</td>
-        <td></td>
+        <td>Background color video stage</td>
     </tr>
     <tr>
         <td>start</td>
         <td>30</td>
-        <td></td>
+        <td>Generates an virutal subclip of the video</td>
     </tr>
     <tr>
         <td>end</td>
         <td>70</td>
-        <td></td>
+        <td>Generates an virtual subclip of the video</td>
     </tr>
     </table>
