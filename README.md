@@ -9,6 +9,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     * [Control player with javascript](examples/javascript-control-player.md)
     * [Receive Events](examples/receive-events.md)
     * [Custom action after video completed](examples/action-after-video-completed.md)
+    * [Embed Protected Player](examples/generate-key.md)
 
 * ### Configuration parameters
     * [How to override](examples/player-configuration.md)
@@ -18,7 +19,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     * **width** in px
     * **height**
     * **container** DIV Container where the player will be stored
-    * **key** [How to Protect Player](examples/generate-key.md)
+    * **key** [How to generate key](examples/generate-key.md)
     * **timestamp**
     * **muted**
     * **controlbar**
