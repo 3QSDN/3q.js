@@ -56,6 +56,11 @@ player.init();
     </thead>
     <tbody>
     <tr>
+        <td>**sticky**</td>
+        <td>true | false</td>
+        <td>Pins video while scrolling</td>
+    </tr>
+    <tr>
         <td>autoplay</td>
         <td>true | false</td>
         <td></td>
