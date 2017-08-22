@@ -4,9 +4,13 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 
 **General embedding**
 
-HTML
+Integrate Library at <head> or before last </body>
 ```html
 <script type="text/javascript" src="https://playout.3qsdn.com/player/js/sdnplayer.js"></script>
+```
+
+Place player container
+```html
 <div id="player1"></div>
 ```
 
