@@ -2,6 +2,8 @@
 
 player events can handled over javascript e.g.:
 
+* ### Usage
+
 ```javascript
 function playerBridge(player,event,data) {
     switch(event) {
@@ -11,6 +13,8 @@ function playerBridge(player,event,data) {
     }
 }
 ```
+
+* ### List of events
 
 <table width="100%">
 <thead>

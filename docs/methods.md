@@ -2,10 +2,14 @@
 
 player methods can handled over javascript e.g.:
 
+* ### Usage
+
 ```javascript
 var player = document.getElementById('player');
 player.play2();
 ```
+
+* ### List of methods
 
 <table width="100%">
 <thead>
