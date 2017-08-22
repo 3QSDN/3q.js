@@ -4,8 +4,8 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 
 ```javascript
 var player = new sdnPlayer(
-    'c8dbe7f4-7f7f-11e6-a407-0cc47a188158',
     {
+        data-id:'c8dbe7f4-7f7f-11e6-a407-0cc47a188158',
         autoplay:true,
         muted:true
     });
