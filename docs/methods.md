@@ -1,8 +1,21 @@
 # 3q.js methods
 
-The Player selects the configured settings, this parameters below can be overwritten.
+player methods can handled over javascript e.g.:
+
+```javascript
+var player = document.getElementById('player');
+player.play2();
+```
 
 <table width="100%">
+<thead>
+<tr>
+<td>method</td>
+<td></td>
+<td>description</td>
+</tr>
+</thead>
+<tbody>
 <tr>
     <td>pause</td>
     <td></td>
@@ -78,6 +91,7 @@ The Player selects the configured settings, this parameters below can be overwri
     <td></td>
     <td>current position</td>
 </tr>
+</tbody>
 </table>
 
 Back to [index](../README.md).
