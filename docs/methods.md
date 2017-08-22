@@ -1,4 +1,4 @@
-# 3q.js methods
+# Methods
 
 player methods can handled over javascript e.g.:
 
@@ -10,9 +10,9 @@ player.play2();
 <table width="100%">
 <thead>
 <tr>
-<td>**method**</td>
-<td></td>
-<td>**description**</td>
+<th>Method</th>
+<th></th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
