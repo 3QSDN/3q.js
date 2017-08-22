@@ -1,4 +1,4 @@
-# Key Generating
+# Embed Protected Player
 
 Server-side code
 

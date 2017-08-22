@@ -9,6 +9,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     * [Control player with javascript](examples/javascript-control-player.md)
     * [Receive Events](examples/receive-events.md)
     * [Custom action after video completed](examples/action-after-video-completed.md)
+    * [Action when given time is reached](examples/action-after-given-time-is-reached.md)
     * [Embed Protected Player](examples/generate-key.md)
 
 * ### Control
