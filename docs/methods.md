@@ -10,9 +10,9 @@ player.play2();
 <table width="100%">
 <thead>
 <tr>
-<td>method</td>
+<td>**method**</td>
 <td></td>
-<td>description</td>
+<td>**description**</td>
 </tr>
 </thead>
 <tbody>
