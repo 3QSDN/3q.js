@@ -22,6 +22,14 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
     The Player selects the configured settings, this parameters below can be overwritten.
 
     <table width="100%">
+    <thead>
+    <tr>
+    <th>Parameter</th>
+    <th></th>
+    <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>autoplay</td>
         <td>true | false</td>
@@ -77,4 +85,5 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
         <td>70</td>
         <td>Generates an virtual subclip of the video</td>
     </tr>
+    </tbody>
     </table>

@@ -74,7 +74,7 @@ function playerBridge(player,event,data) {
 <tr>
     <td>crontrolbarChange</td>
     <td></td>
-    <td>controlbar hides or shows/td>
+    <td>controlbar hides or shows</td>
 </tr>
 <tr>
     <td>advertisementStart</td>
