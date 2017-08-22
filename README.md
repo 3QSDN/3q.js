@@ -18,7 +18,7 @@ var player = new sdnPlayer(
         autoplay:true,
         muted:true
     });
-    player.init();
+player.init();
 ```
 
 
