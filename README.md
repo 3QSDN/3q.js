@@ -6,6 +6,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 
 HTML
 ```html
+<script type="text/javascript" src="https://playout.3qsdn.com/player/js/sdnplayer.js"></script>
 <div id="player1"></div>
 ```
 
