@@ -6,7 +6,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 
 Integrate Library at `<head>` or before last `</body>`
 ```html
-<script type="text/javascript" src="https://playout.3qsdn.com/player/js/sdnplayer.js"></script>
+<script type="text/javascript" async src="https://playout.3qsdn.com/player/js/sdnplayer.js"></script>
 ```
 
 Place player container
@@ -14,16 +14,23 @@ Place player container
 <div id="player1"></div>
 ```
 
-Javascript
+Javascript (async)
 ```javascript
-var player = new sdnPlayer(
-    {
-        container: 'player1',
-        data-id:'c8dbe7f4-7f7f-11e6-a407-0cc47a188158',
-        autoplay:true,
-        muted:true
-    });
-player.init();
+   var js3qVideoPlayer;
+    (function () {
+        var _js3qi = setInterval(function () {
+            if (typeof js3q != 'undefined') {
+                clearInterval(_js3qi);
+                js3qVideoPlayer = new js3q({
+                    'data-id': '5c3b0910-8850-11e7-9273-002590c750be',
+                    'container': 'player1',
+                    'sticky': true,
+                    'playlistbar' : true
+                });
+                js3qVideoPlayer.init();
+            }
+        }, 10);
+    })();
 ```
 
 
