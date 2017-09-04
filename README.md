@@ -68,7 +68,7 @@ Javascript (async)
      <tr>
             <td>data-id</td>
             <td>uuid</td>
-            <td>Known as sdnPlayoutId or data-id</td>
+            <td>Known as sdnPlayoutId or data-id; refers to video, playlist or live content</td>
         </tr>
     <tr>
         <td>**sticky**</td>
