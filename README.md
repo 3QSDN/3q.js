@@ -67,8 +67,8 @@ Javascript (async)
     <tbody>
      <tr>
             <td>data-id</td>
-            <td>uid</td>
-            <td>Know as sdnPlayoutId or data-id</td>
+            <td>uuid</td>
+            <td>Known as sdnPlayoutId or data-id</td>
         </tr>
     <tr>
         <td>**sticky**</td>
