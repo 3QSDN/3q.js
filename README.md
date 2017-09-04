@@ -48,6 +48,10 @@ Javascript (async)
     * [Methods](docs/methods.md)
     * [Events](docs/events.md)
 
+* ### Known Issues
+    * [Cast Support](docs/cast-support.md)
+    * [Using Require.js](docs/require-js.md)
+
 * ### Configuration parameters
     * [How to override](examples/player-configuration.md)
 
@@ -62,6 +66,11 @@ Javascript (async)
     </tr>
     </thead>
     <tbody>
+     <tr>
+            <td>data-id</td>
+            <td>uid</td>
+            <td>Know as sdnPlayoutId or data-id</td>
+        </tr>
     <tr>
         <td>**sticky**</td>
         <td>true | false</td>
