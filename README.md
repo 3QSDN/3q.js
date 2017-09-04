@@ -53,7 +53,6 @@ Javascript (async)
     * [Using Require.js](docs/require-js.md)
 
 * ### Configuration parameters
-    * [How to override](examples/player-configuration.md)
 
     The Player selects the configured settings, this parameters below can be overwritten.
 
