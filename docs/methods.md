@@ -91,9 +91,29 @@ player.play2();
     <td>get full playback time (user and video)</td>
 </tr>
 <tr>
-    <td>destroy</td>
+    <td>getFullPlaybackTime</td>
     <td></td>
-    <td>current position</td>
+    <td>get full playback time (user and video)</td>
+</tr>
+<tr>
+    <td>showSideBarInfoIcon</td>
+    <td></td>
+    <td>displays the sidebar info icon (top-right)</td>
+</tr>
+<tr>
+    <td>showSideBar</td>
+    <td></td>
+    <td>displays the sidebar</td>
+</tr>
+<tr>
+    <td>hideSideBar</td>
+    <td></td>
+    <td>hides the Sidebar</td>
+</tr>
+<tr>
+    <td>setSideBarHTML</td>
+    <td></td>
+    <td>sets the HTML of the sidebar</td>
 </tr>
 </tbody>
 </table>
