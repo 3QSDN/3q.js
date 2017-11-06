@@ -130,5 +130,10 @@ Javascript (async)
         <td>70</td>
         <td>Generates an virtual subclip of the video</td>
     </tr>
+     <tr>
+            <td>skin</td>
+            <td></td>
+            <td>Your custom Skin name</td>
+        </tr>
     </tbody>
     </table>
