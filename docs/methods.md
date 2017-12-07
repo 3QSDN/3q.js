@@ -5,8 +5,12 @@ player methods can handled over javascript e.g.:
 * ### Usage
 
 ```javascript
-var player = document.getElementById('player');
-player.play2();
+var js3qVideoPlayer;
+    (function () {
+       ... // player code here
+    })();
+
+js3qVideoPlayer.play(); // Calls method
 ```
 
 * ### List of methods

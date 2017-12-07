@@ -16,6 +16,7 @@ Place player container
 
 Javascript (async)
 ```javascript
+<script type="text/javscript">
    var js3qVideoPlayer;
     (function () {
         var _js3qi = setInterval(function () {
@@ -31,6 +32,7 @@ Javascript (async)
             }
         }, 10);
     })();
+</script>
 ```
 
 
@@ -135,5 +137,10 @@ Javascript (async)
             <td></td>
             <td>Your custom Skin name</td>
         </tr>
+         <tr>
+                    <td>jscallback</td>
+                    <td></td>
+                    <td>Your function for receiving events</td>
+                </tr>
     </tbody>
     </table>
