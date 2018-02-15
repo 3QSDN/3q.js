@@ -9,7 +9,8 @@ $_projectId = 'project id';
 $_accountSecret = 'account_secret';
 $timestamp = new \DateTime('now');
 $timestamp = $timestamp->getTimestamp();
-$key = md5($_projectId.$_accountSecret.$timestamp);
+// You'll find the Project Key at Project Settings.
+$key = md5($_projectId.$project_key.$timestamp);
 ```
 
 Integrate Library at `<head>` or before last `</body>`
