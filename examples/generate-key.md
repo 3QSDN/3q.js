@@ -6,11 +6,11 @@ Server-side code
 // serverside.php
 
 $_projectId = 'project id';
-$_accountSecret = 'account_secret';
+$_project_key = 'account_secret';
 $timestamp = new \DateTime('now');
 $timestamp = $timestamp->getTimestamp();
 // You'll find the Project Key at Project Settings.
-$key = md5($_projectId.$project_key.$timestamp);
+$key = md5($_projectId.$_project_key.$timestamp);
 ```
 
 Integrate Library at `<head>` or before last `</body>`
