@@ -16,7 +16,7 @@ Place player container
 
 Javascript (async)
 ```javascript
-<script type="text/javscript">
+<script type="text/javascript">
    var js3qVideoPlayer;
     (function () {
         var _js3qi = setInterval(function () {
