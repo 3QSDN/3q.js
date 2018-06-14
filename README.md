@@ -56,6 +56,14 @@ Javascript (async)
     * [Cast Support](docs/cast-support.md)
     * [Using Require.js](docs/require-js.md)
 
+## Release Notes
+
+* ### 2018-06-14
+    * Fixed player-ui issues on IE 10
+    * Code clean up
+    * Fixed player-ui issue regarding buffering spinner after postroll
+    * Fixed missing ready call for audio streams
+
 
 (c) 2009 - 2018 3Q GmbH,Alle rights reserved
 
