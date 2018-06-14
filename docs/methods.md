@@ -95,11 +95,6 @@ js3qVideoPlayer.play(); // Calls method
     <td>get full playback time (user and video)</td>
 </tr>
 <tr>
-    <td>getFullPlaybackTime</td>
-    <td></td>
-    <td>get full playback time (user and video)</td>
-</tr>
-<tr>
     <td>showSideBarInfoIcon</td>
     <td></td>
     <td>displays the sidebar info icon (top-right)</td>
@@ -118,6 +113,16 @@ js3qVideoPlayer.play(); // Calls method
     <td>setSideBarHTML</td>
     <td></td>
     <td>sets the HTML of the sidebar</td>
+</tr>
+<tr>
+    <td>fullscreen</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>exitfullscreen</td>
+    <td></td>
+    <td></td>
 </tr>
 </tbody>
 </table>
