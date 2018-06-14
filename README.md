@@ -54,4 +54,4 @@ Javascript (async)
     * [Using Require.js](docs/require-js.md)
 
 * ### Configuration parameters
-    * [Configuration Parameters](docs/configuratoin-params.md)
+    * [List of parameters](docs/configuratoin-params.md)
