@@ -41,6 +41,10 @@ Javascript (async)
 * ### Configuration
     * [List of parameters](docs/configuration-params.md)
 
+* ### Control
+    * [Methods](docs/methods.md)
+    * [Events](docs/events.md)
+
 * ### Examples
     * [Control player with javascript](examples/javascript-control-player.md)
     * [Receive Events](examples/receive-events.md)
@@ -48,12 +52,11 @@ Javascript (async)
     * [Action when given time is reached](examples/action-after-given-time-is-reached.md)
     * [Embed Protected Player](examples/generate-key.md)
 
-* ### Control
-    * [Methods](docs/methods.md)
-    * [Events](docs/events.md)
-
 * ### Known Issues
     * [Cast Support](docs/cast-support.md)
     * [Using Require.js](docs/require-js.md)
+
+
+(c) 2009 - 2018 3Q GmbH,Alle rights reserved
 
 
