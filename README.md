@@ -38,6 +38,9 @@ Javascript (async)
 * ### About
     * [HTML5 Video Player 3q.js](https://www.3qsdn.com/en/adaptive_html5_video_player).
 
+* ### Configuration
+    * [List of parameters](docs/configuration-params.md)
+
 * ### Examples
     * [Control player with javascript](examples/javascript-control-player.md)
     * [Receive Events](examples/receive-events.md)
@@ -53,5 +56,4 @@ Javascript (async)
     * [Cast Support](docs/cast-support.md)
     * [Using Require.js](docs/require-js.md)
 
-* ### Configuration parameters
-    * [List of parameters](docs/configuratoin-params.md)
+
