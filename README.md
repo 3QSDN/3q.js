@@ -4,11 +4,11 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 
 ## Table of content
 
-- [General Embedding](#general embedding)
+- [General Embedding](#general-embedding)
 - [About](#about)
 - [Control](#control)
 - [Examples](#examples)
-- [Known Issues](#known issues)
+- [Known Issues](#known-issues)
 
 ### General embedding
 
