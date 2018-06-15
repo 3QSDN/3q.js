@@ -58,6 +58,9 @@ Javascript (async)
 
 ## Release Notes
 
+* ### 2018-06-15
+    * Added custom SkipButton UI for Google IMA
+
 * ### 2018-06-14
     * Fixed player-ui issues on IE 10
     * Code clean up
