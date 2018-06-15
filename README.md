@@ -79,6 +79,6 @@ Javascript (async)
 
 
 
-(c) 2009 - 2018 3Q GmbH,Alle rights reserved
+(c) 2009 - 2018 3Q GmbH, All rights reserved
 
 
