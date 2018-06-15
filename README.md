@@ -4,7 +4,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 
 ## Table of content
 
-- [About](#About)
+- [About](#about)
 
 **General embedding**
 
