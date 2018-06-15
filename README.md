@@ -9,6 +9,7 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 - [Control](#control)
 - [Examples](#examples)
 - [Known Issues](#known-issues)
+- [Release Notes](#release-notes)
 
 ### General embedding
 
@@ -64,13 +65,13 @@ Javascript (async)
     * [Cast Support](docs/cast-support.md)
     * [Using Require.js](docs/require-js.md)
 
-## Release Notes
+### Release Notes
 
-* ### 2018-06-15
+* #### 2018-06-15
     * Fixed unrecognized jscallback Parameter (audio on-demand)
     * Added custom SkipButton UI for Google IMA
 
-* ### 2018-06-14
+* #### 2018-06-14
     * Fixed player-ui issues on IE 10
     * Code clean up
     * Fixed player-ui issue regarding buffering spinner after postroll
