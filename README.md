@@ -4,9 +4,13 @@ Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com)
 
 ## Table of content
 
+- [General Embedding](#general embedding)
 - [About](#about)
+- [Control](#control)
+- [Examples](#examples)
+- [Known Issues](#known issues)
 
-**General embedding**
+### General embedding
 
 Integrate Library at `<head>` or before last `</body>`
 ```html
