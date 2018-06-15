@@ -59,6 +59,7 @@ Javascript (async)
 ## Release Notes
 
 * ### 2018-06-15
+    * Fixed unrecognized jscallback Parameter (audio on-demand)
     * Added custom SkipButton UI for Google IMA
 
 * ### 2018-06-14
@@ -66,6 +67,7 @@ Javascript (async)
     * Code clean up
     * Fixed player-ui issue regarding buffering spinner after postroll
     * Fixed missing ready call for audio streams
+
 
 
 (c) 2009 - 2018 3Q GmbH,Alle rights reserved
