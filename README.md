@@ -2,7 +2,7 @@
 
 Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com).
 
-## Table of content
+## Table of contents
 
 - [General Embedding](#general-embedding)
 - [About](#about)
@@ -56,10 +56,10 @@ Javascript (async)
 
 * ### Examples
     * [Control player with javascript](examples/javascript-control-player.md)
-    * [Receive Events](examples/receive-events.md)
+    * [Receive events](examples/receive-events.md)
     * [Custom action after video completed](examples/action-after-video-completed.md)
     * [Action when given time is reached](examples/action-after-given-time-is-reached.md)
-    * [Embed Protected Player](examples/generate-key.md)
+    * [Embed protected player](examples/generate-key.md)
 
 * ### Known Issues
     * [Cast Support](docs/cast-support.md)
