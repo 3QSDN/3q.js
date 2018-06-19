@@ -67,6 +67,14 @@ Javascript (async)
 
 ### Release Notes
 
+* #### 2018-06-18
+    * Added view port and env to debug info
+    * Hide cast button while playing ads
+    * Hide volume slider after muting/unmuting on mobile
+    * Hide ads countdown when remaining time is not available by api
+    * Improved ready callback
+    * Added poster frame preload before displaying
+
 * #### 2018-06-15
     * Fixed unrecognized jscallback Parameter (audio on-demand)
     * Added custom SkipButton UI for Google IMA
