@@ -44,6 +44,11 @@ The Player selects the configured settings, this parameters below can be overwri
 <td>Enables or disables configured ads in `AdManager`</td>
 </tr>
 <tr>
+<td>vastid</td>
+<td></td>
+<td>Choose specific AdManager tag by id</td>
+</tr>
+<tr>
 <td>width</td>
 <td>100%25 | 640px</td>
 <td></td>

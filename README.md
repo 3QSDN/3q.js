@@ -1,6 +1,6 @@
-# 3q.js Player documentation
+# 3q.js player documentation
 
-Player documentation and embedding examples from [3Q SDN](https://www.3qsdn.com).
+Player documentation and embedding examples from [3Q](https://www.3qsdn.com).
 
 ## Table of contents
 
@@ -66,6 +66,10 @@ Javascript (async)
     * [Using Require.js](docs/require-js.md)
 
 ### Release Notes
+
+* #### 2016-08-20
+    * Added new audio player UI including visualizer
+    * Code clean up
 
 * #### 2018-06-18
     * Added view port and env to debug info
