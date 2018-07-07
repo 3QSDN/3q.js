@@ -85,6 +85,11 @@ js3qVideoPlayer.play(); // Calls method
     <td>unmutes video</td>
 </tr>
 <tr>
+    <td>getLiveDelayInSeconds</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
     <td>getPlaybackTime</td>
     <td></td>
     <td>get current viewing time (pageview)</td>
