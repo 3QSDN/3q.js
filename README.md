@@ -68,6 +68,10 @@ Javascript (async)
 ### Release Notes
 
 * #### 2016-08-20
+    * getLiveDelayInSeconds() added for live streams
+    * locale config param added
+
+* #### 2016-08-20
     * Added new audio player UI including visualizer
     * Code clean up
 

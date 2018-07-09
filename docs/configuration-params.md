@@ -14,6 +14,11 @@ The Player selects the configured settings, this parameters below can be overwri
 </thead>
 <tbody>
 <tr>
+<td>locale</td>
+<td>Default is browser setting</td>
+<td>en|de (more languages soon)</td>
+</tr>
+<tr>
 <td>data-id</td>
 <td>uuid</td>
 <td>Known as sdnPlayoutId or data-id; refers to video, playlist or live content</td>
