@@ -67,11 +67,11 @@ Javascript (async)
 
 ### Release Notes
 
-* #### 2016-08-20
+* #### 2018-07-09 (v4.1.0)
     * getLiveDelayInSeconds() added for live streams
     * locale config param added
 
-* #### 2016-08-20
+* #### 2018-06-20
     * Added new audio player UI including visualizer
     * Code clean up
 
