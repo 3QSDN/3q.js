@@ -67,6 +67,10 @@ Javascript (async)
 
 ### Release Notes
 
+* #### 2018-07-11
+    * Settings menu UI improvement for mobile
+    * Improved handling for streams with alternative audio on ios and safari
+
 * #### 2018-07-09 (v4.1.0)
     * getLiveDelayInSeconds() added for live streams
     * locale config param added
