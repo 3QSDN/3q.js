@@ -67,6 +67,13 @@ Javascript (async)
 
 ### Release Notes
 
+* #### 2018-07-20
+    * Improved handling on manifest load timeouts
+
+* #### 2018-07-18
+    * Sticky feature improvement
+    * Fixed thumbnail aspect ratio on IE11
+
 * #### 2018-07-11
     * Settings menu UI improvement for mobile
     * Improved handling for streams with alternative audio on ios and safari
