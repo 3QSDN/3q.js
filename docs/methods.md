@@ -70,6 +70,16 @@ js3qVideoPlayer.play(); // Calls method
     <td>set subtitle by index</td>
 </tr>
 <tr>
+    <td>getAudioTracks</td>
+    <td></td>
+    <td>array of available audiotracks</td>
+</tr>
+<tr>
+    <td>setAudioTrack</td>
+    <td></td>
+    <td>set audiotrack by index</td>
+</tr>
+<tr>
     <td>hideControlbar</td>
     <td></td>
     <td>hides player controls</td>

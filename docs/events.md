@@ -115,6 +115,16 @@ function playerBridge(player,event,data) {
     <td></td>
     <td>video unmuted</td>
 </tr>
+<tr>
+    <td>subtitleChange</td>
+    <td>int</td>
+    <td>currentIndex</td>
+</tr>
+<tr>
+    <td>audioChange</td>
+    <td>object</td>
+    <td>All audiotracks listed</td>
+</tr>
 </tbody>
 </table>
 

@@ -67,6 +67,12 @@ Javascript (async)
 
 ### Release Notes
 
+* #### 2018-07-27 (v4.1.1) - @deployment pipe, not yet released
+    * Added events: subtitleChange, audioChange
+    * Added methods: getAudioTracks, setAudioTrack
+    * Code clean up
+    * Cast Support: Removed google's media library from code-base; Added subtitle and alternative audio support
+
 * #### 2018-07-20
     * Improved handling on manifest load timeouts
 
