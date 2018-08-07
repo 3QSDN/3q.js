@@ -15,42 +15,42 @@ The Player selects the configured settings, this parameters below can be overwri
 <tbody>
 <tr>
 <td>locale</td>
-<td>Default is browser setting</td>
-<td>en|de (more languages soon)</td>
+<td>string</td>
+<td>en|de (more languages soon, Default is browser setting)</td>
 </tr>
 <tr>
 <td>data-id</td>
 <td>uuid</td>
-<td>Known as sdnPlayoutId or data-id; refers to video, playlist or live content</td>
+<td>Known as sdnplayoutid or data-id; refers to video, playlist or live content</td>
 </tr>
 <tr>
 <td>**sticky**</td>
-<td>true | false</td>
+<td>(bool) true|false</td>
 <td>Pins video while scrolling</td>
 </tr>
 <tr>
 <td>scrolltoplay</td>
-<td>true | false</td>
+<td>(bool) true|false</td>
 <td>Only works when autoplay is disabled</td>
 </tr>
 <tr>
 <td>autoplay</td>
-<td>true | false</td>
+<td>(bool) true|false</td>
 <td></td>
 </tr>
 <tr>
 <td>muted</td>
-<td>true | false</td>
+<td>(bool) true|false</td>
 <td></td>
 </tr>
 <tr>
 <td>vast</td>
-<td>true | false</td>
+<td>(bool) true|false</td>
 <td>Enables or disables configured ads in `AdManager`</td>
 </tr>
 <tr>
 <td>vastid</td>
-<td></td>
+<td>(int) id</td>
 <td>Choose specific AdManager tag by id</td>
 </tr>
 <tr>
@@ -65,62 +65,71 @@ The Player selects the configured settings, this parameters below can be overwri
 </tr>
 <tr>
 <td>key</td>
-<td>string</td>
-<td></td>
+<td>(string)</td>
+<td>*[Embed protected player](../examples/generate-key.md)</td>
 </tr>
 <tr>
 <td>timestamp</td>
-<td>string</td>
+<td>(string)</td>
 <td></td>
 </tr>
 <tr>
 <td>controlbar</td>
-<td>true | false</td>
+<td>(bool) true | false</td>
 <td>Enable or disable controls</td>
 </tr>
 <tr>
 <td>controlbarautohide</td>
-<td>true | false</td>
+<td>(bool) true | false</td>
 <td></td>
 </tr>
 <tr>
 <td>bgcolor</td>
-<td>#00000</td>
+<td>(string) #00000</td>
 <td>Background color video stage</td>
 </tr>
 <tr>
 <td>start</td>
-<td>30</td>
-<td>Generates an virutal subclip of the video</td>
+<td>(int) seconds</td>
+<td>Start of virtual subclip</td>
 </tr>
 <tr>
 <td>end</td>
-<td>70</td>
-<td>Generates an virtual subclip of the video</td>
+<td>(int) seconds</td>
+<td>End of virtual subclip</td>
 </tr>
 <tr>
 <td>skin</td>
-<td></td>
+<td>(string)</td>
 <td>Your custom Skin name</td>
 </tr>
 <tr>
 <td>jscallback</td>
-<td></td>
-<td>Your function for receiving events</td>
+<td>(string)</td>
+<td>Your global function for receiving events</td>
 </tr>
+</tbody>
+</table>
+
+* ### Parameters for comments
+
+<table width="100%">
+<thead>
 <tr>
-<td>-</td>
-<td></td>
-<td></td>
+<th>Parameter</th>
+<th></th>
+<th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>firstname</td>
-<td></td>
+<td>(string)</td>
 <td>Name for comments</td>
 </tr>
 <tr>
 <td>surname</td>
-<td></td>
+<td>(string)</td>
 <td>Name for comments</td>
 </tr>
 </tbody>

@@ -67,7 +67,10 @@ Javascript (async)
 
 ### Release Notes
 
-* #### 2018-07-27 (v4.1.1) - @deployment pipe, not yet released
+* #### 2018-08-07 (v4.1.1)
+    * Bugfix video looping if autoplay enabled and ads disabled
+
+* #### 2018-07-27 (v4.1.1)
     * Added events: subtitleChange, audioChange
     * Added methods: getAudioTracks, setAudioTrack
     * Code clean up

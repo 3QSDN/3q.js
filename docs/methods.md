@@ -10,7 +10,7 @@ var js3qVideoPlayer;
        ... // player code here
     })();
 
-js3qVideoPlayer.play(); // Calls method
+js3qVideoPlayer.play(); // Calls method play
 ```
 
 * ### List of methods
@@ -25,64 +25,14 @@ js3qVideoPlayer.play(); // Calls method
 </thead>
 <tbody>
 <tr>
-    <td>pause</td>
-    <td></td>
-    <td>pauses video</td>
-</tr>
-<tr>
-    <td>play2</td>
+    <td>play (play2 deprecated)</td>
     <td></td>
     <td>plays video</td>
 </tr>
 <tr>
-    <td>seek</td>
-    <td>in seconds</td>
-    <td>seeks to position</td>
-</tr>
-<tr>
-    <td>getCurrentTime</td>
+    <td>pause</td>
     <td></td>
-    <td>current position</td>
-</tr>
-<tr>
-    <td>getDuration</td>
-    <td></td>
-    <td>video length</td>
-</tr>
-<tr>
-    <td>getVolume</td>
-    <td>0.1 to 1.0</td>
-    <td>get volume</td>
-</tr>
-<tr>
-    <td>setVolume</td>
-    <td>0.1 to 1.0</td>
-    <td>get volume</td>
-</tr>
-<tr>
-    <td>getSubtitles</td>
-    <td></td>
-    <td>array of available subtitles</td>
-</tr>
-<tr>
-    <td>setSubtitles</td>
-    <td></td>
-    <td>set subtitle by index</td>
-</tr>
-<tr>
-    <td>getAudioTracks</td>
-    <td></td>
-    <td>array of available audiotracks</td>
-</tr>
-<tr>
-    <td>setAudioTrack</td>
-    <td></td>
-    <td>set audiotrack by index</td>
-</tr>
-<tr>
-    <td>hideControlbar</td>
-    <td></td>
-    <td>hides player controls</td>
+    <td>pauses video</td>
 </tr>
 <tr>
     <td>mute</td>
@@ -95,18 +45,68 @@ js3qVideoPlayer.play(); // Calls method
     <td>unmutes video</td>
 </tr>
 <tr>
+    <td>seek</td>
+    <td>(int) seconds</td>
+    <td>seeks to position</td>
+</tr>
+<tr>
+    <td>getCurrentTime</td>
+    <td>(int) seconds</td>
+    <td>current position</td>
+</tr>
+<tr>
+    <td>getDuration</td>
+    <td>(int) seconds</td>
+    <td>video length</td>
+</tr>
+<tr>
+    <td>getVolume</td>
+    <td>(int) 0.1 .. 1.0</td>
+    <td>get volume</td>
+</tr>
+<tr>
+    <td>setVolume</td>
+    <td>(int) 0.1 .. 1.0</td>
+    <td>get volume</td>
+</tr>
+<tr>
+    <td>getSubtitles</td>
+    <td>[Object]</td>
+    <td>array of available subtitles</td>
+</tr>
+<tr>
+    <td>setSubtitles</td>
+    <td>(int) index</td>
+    <td>set subtitle</td>
+</tr>
+<tr>
+    <td>getAudioTracks</td>
+    <td>[Object]</td>
+    <td>array of available audiotracks</td>
+</tr>
+<tr>
+    <td>setAudioTrack</td>
+    <td>(int) index</td>
+    <td>set audiotrack by index</td>
+</tr>
+<tr>
+    <td>hideControlbar</td>
+    <td></td>
+    <td>hides player controls</td>
+</tr>
+<tr>
     <td>getLiveDelayInSeconds</td>
-    <td></td>
-    <td></td>
+    <td>(int) seconds</td>
+    <td>Live delay in seconds, not available on DVR</td>
 </tr>
 <tr>
     <td>getPlaybackTime</td>
-    <td></td>
+    <td>(int) seconds</td>
     <td>get current viewing time (pageview)</td>
 </tr>
 <tr>
     <td>getFullPlaybackTime</td>
-    <td></td>
+    <td>(int) seconds</td>
     <td>get full playback time (user and video)</td>
 </tr>
 <tr>

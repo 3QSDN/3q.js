@@ -52,17 +52,17 @@ function playerBridge(player,event,data) {
 </tr>
 <tr>
     <td>volumeChange</td>
-    <td></td>
+    <td>(int) 0.1 .. 1.0</td>
     <td>volume changed</td>
 </tr>
 <tr>
     <td>timeChange</td>
-    <td></td>
+    <td>(int) seconds</td>
     <td>current position changes</td>
 </tr>
 <tr>
     <td>durationChange</td>
-    <td></td>
+    <td>(int) seconds</td>
     <td>length of video changes</td>
 </tr>
 <tr>
@@ -117,12 +117,12 @@ function playerBridge(player,event,data) {
 </tr>
 <tr>
     <td>subtitleChange</td>
-    <td>int</td>
+    <td>int (index)</td>
     <td>currentIndex</td>
 </tr>
 <tr>
     <td>audioChange</td>
-    <td>object</td>
+    <td>[Object]</td>
     <td>All audiotracks listed</td>
 </tr>
 </tbody>
