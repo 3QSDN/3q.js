@@ -5,12 +5,15 @@ Server-side code
 ```php
 // serverside.php
 
-$_projectId = 'project id';
-$_project_key = 'account_secret';
+$_project_id = 'project id';
+$_project_key = 'project_secret';
+// You'll find the Project Key at Project Settings.
+
 $timestamp = new \DateTime('now');
 $timestamp = $timestamp->getTimestamp();
-// You'll find the Project Key at Project Settings.
-$key = md5($_projectId.$_project_key.$timestamp);
+
+
+$key = md5($_project_id.$_project_key.$timestamp);
 ```
 
 Integrate Library at `<head>` or before last `</body>`

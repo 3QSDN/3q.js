@@ -1,6 +1,6 @@
 # 3q.js player documentation
 
-Player documentation and embedding examples from [3Q](https://www.3qsdn.com).
+Player documentation and embedding examples from [3Q](https://3q.video/en/developers).
 
 ## Table of contents
 
@@ -45,7 +45,8 @@ Javascript (async)
 ```
 
 * ### About
-    * [HTML5 Video Player 3q.js](https://www.3qsdn.com/en/adaptive_html5_video_player).
+    * [HTML5 Video Player 3q.js](https://3q.video/en/adaptive_html5_video_player).
+    * [Test Browser capabilities](https://3q.video/en/player-about-en).
 
 * ### Configuration
     * [List of parameters](docs/configuration-params.md)
@@ -67,7 +68,7 @@ Javascript (async)
 
 ### Release Notes
 
-* #### 2018-08-07 (v4.1.1)
+* #### 2018-08-07
     * Bugfix video looping if autoplay enabled and ads disabled
 
 * #### 2018-07-27 (v4.1.1)
