@@ -13,7 +13,7 @@ Embed player
 <p>Some Text</p>
 <!-- Player Container #1 -->
 <div id="player1" style="width:100%;height:360px;"></div>
-<script type="text/javscript">
+<script type="text/javascript">
    var js3qVideoPlayer;
     (function () {
         var _js3qi = setInterval(function () {
