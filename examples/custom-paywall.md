@@ -48,7 +48,8 @@ var js3qVideoPlayer;
                     'sticky': true,
                     'playlistbar' : true,
                     'layout' : 'responsive',
-                    'end' : 15
+                    'end' : 15,
+                    'jscallback': 'sdnPlayerBridge'
                 });
                 js3qVideoPlayer.init();
             }
