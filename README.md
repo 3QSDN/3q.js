@@ -69,6 +69,7 @@ Javascript (async)
 ### Release Notes
 
 * #### 2018-09-14
+    * Enabled to display Ads on mobile whiles using autoplay and mutedautoplay for mobile
     * Added custom GA function parameter
     
 * #### 2018-08-07
