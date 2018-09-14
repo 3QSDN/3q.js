@@ -68,6 +68,9 @@ Javascript (async)
 
 ### Release Notes
 
+* #### 2018-09-14
+    * Added custom GA function parameter
+    
 * #### 2018-08-07
     * Bugfix video looping if autoplay enabled and ads disabled
 

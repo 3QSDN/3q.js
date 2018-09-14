@@ -108,6 +108,16 @@ The Player selects the configured settings, this parameters below can be overwri
 <td>(string)</td>
 <td>Your global function for receiving events</td>
 </tr>
+<tr>
+<td>ga</td>
+<td>(bool)</td>
+<td>Activate Google Analytics Tracking</td>
+</tr>
+<tr>
+<td>gacallback</td>
+<td>(string)</td>
+<td>Name of the GA Function, should be global (window)</td>
+</tr>
 </tbody>
 </table>
 
