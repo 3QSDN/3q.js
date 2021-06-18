@@ -3,48 +3,43 @@
 Embed library at head
 
 ```html
-<script type="text/javascript" src="https://playout.3qsdn.com/player/js/sdnplayer.js"></script>
-```
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
 
-Embed player
+  <!-- Additional Headers -->
 
-```html
-<h1>Video #1</h1>
-<p>Some Text</p>
-<!-- Player Container #1 -->
-<div id="player1" style="width:100%;height:360px;"></div>
-<script type="text/javascript">
-   var js3qVideoPlayer;
-    (function () {
-        var _js3qi = setInterval(function () {
-            if (typeof js3q != 'undefined') {
-                clearInterval(_js3qi);
-                js3qVideoPlayer = new js3q({
-                    'data-id': '5c3b0910-8850-11e7-9273-002590c750be',
-                    'container': 'player1'
-                });
-                js3qVideoPlayer.init();
-            }
-        }, 10);
-    })();
-</script>
-<br><br>
-<button onclick="javascript:play();">Play</button>
-<button onclick="javascript:pause();">Pause</button>
-```
+  <script src="//player.3qsdn.com/js3q.latest.js"></script>
+</head>
+<body>
+  <!-- Additional Body Content -->
 
-JavaScript
+  <div id="player"></div>
 
-```javascript
-<script type="text/javascript">
-function play() {
-    js3qVideoPlayer.play();
-}
+  <button id="play">Play</button>
+  <button id="pause">Pause</button>
 
-function pause() {
-    js3qVideoPlayer.pause();
-}
-</script>
+  <script>
+    // Initialize the player
+    var js3qPlayer = new js3q({
+      dataid: 'c3eaa1e0-c608-11ea-b206-0cc47a188158',
+      container: 'player'
+    });
+
+    // Add the event handler for the 'Play' button
+    var playBtn = document.getElementById('play')
+    playBtn.addEventListener('click', function() {
+      js3qPlayer.play()
+    });
+
+    // Add the event handler for the 'Pause' button
+    var pauseBtn = document.getElementById('pause')
+    pauseBtn.addEventListener('click', function() {
+      js3qPlayer.pause()
+    });
+  </script>
+</body>
+</html>
 ```
 
 Back to [index](../README.md).
